@@ -1,0 +1,5 @@
+######################
+## General Keybinds ##
+######################
+
+bindsym $mod+c kill

@@ -4,6 +4,13 @@
 
 set $mod mod4
 
+##############
+## Includes ##
+##############
+
+include programs
+include keybinds
+
 ##########################
 ## Distro Configuration ##
 ##########################

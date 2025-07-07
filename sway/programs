@@ -1,0 +1,11 @@
+#######################
+## Program Variables ##
+#######################
+
+set $term foot
+
+##############
+## Keybinds ##
+##############
+
+bindsym $mod+q exec $term

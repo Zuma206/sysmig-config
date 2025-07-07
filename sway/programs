@@ -9,3 +9,9 @@ set $term foot
 ##############
 
 bindsym $mod+q exec $term
+
+###############
+## Autostart ##
+###############
+
+exec kanshi

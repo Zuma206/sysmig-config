@@ -15,3 +15,4 @@ bindsym $mod+q exec $term
 ###############
 
 exec kanshi
+exec_always kanshictl reload

@@ -1,3 +1,7 @@
 local std = require "@std"
 
-return std.system {}
+return std.system {
+  std.symlinks {
+    ["~/.config/sway"] = "sway"
+  }
+}

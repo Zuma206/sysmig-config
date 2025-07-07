@@ -3,12 +3,14 @@
 #######################
 
 set $term foot
+set $menu rofi -show drun
 
 ##############
 ## Keybinds ##
 ##############
 
 bindsym $mod+q exec $term
+bindsym $mod+r exec $menu
 
 ###############
 ## Autostart ##

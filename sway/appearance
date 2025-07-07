@@ -1,11 +1,7 @@
-#############
-## Borders ##
-#############
+########################
+## General Appearance ##
+########################
 
 default_border none
-
-##########
-## Gaps ##
-##########
-
 gaps inner 10
+output * background ~/Pictures/wallpapers/kitty.jpg fill

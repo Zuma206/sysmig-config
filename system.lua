@@ -4,5 +4,6 @@ return std.system {
   std.symlinks {
     ["~/.config/sway"] = "sway",
     ["~/.config/kanshi"] = "kanshi",
+    ["~/Pictures/wallpapers"] = "wallpapers"
   }
 }

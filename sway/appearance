@@ -1,0 +1,11 @@
+#############
+## Borders ##
+#############
+
+default_border none
+
+##########
+## Gaps ##
+##########
+
+gaps inner 10

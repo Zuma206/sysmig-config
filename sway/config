@@ -10,6 +10,7 @@ set $mod mod4
 
 include programs
 include keybinds
+include appearance
 
 ##########################
 ## Distro Configuration ##

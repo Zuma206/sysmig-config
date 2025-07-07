@@ -1,4 +1,4 @@
 profile {
   output "BOE 0x095F Unknown" disable
-  output "OOO EG27144 Unknown" enable scale 1.25
+  output "OOO EG27144 Unknown" enable
 }

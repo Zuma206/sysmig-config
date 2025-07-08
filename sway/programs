@@ -2,15 +2,19 @@
 ## Program Variables ##
 #######################
 
-set $term foot
-set $menu rofi -show drun
+set {
+  $term foot
+  $menu rofi -show drun
+}
 
 ##############
 ## Keybinds ##
 ##############
 
-bindsym $mod+q exec $term
-bindsym $mod+r exec $menu
+bindsym {
+  $mod+q exec $term
+  $mod+r exec $menu
+}
 
 ###############
 ## Autostart ##

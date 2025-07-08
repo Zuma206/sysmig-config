@@ -1,3 +1,6 @@
 [submodule "wallpapers"]
 	path = wallpapers
 	url = https://github.com/orangci/walls-catppuccin-mocha.git
+[submodule "waybar/catppuccin"]
+	path = waybar/catppuccin
+	url = https://github.com/catppuccin/waybar.git

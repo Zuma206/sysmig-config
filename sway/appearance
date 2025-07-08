@@ -1,7 +1,19 @@
+######################
+## Catppuccin Theme ##
+######################
+
+include catppuccin/themes/catppuccin-mocha
+
 ########################
 ## General Appearance ##
 ########################
 
 output * background ~/Pictures/wallpapers/flowers-2.jpg fill
-default_border none
 gaps inner 10
+
+#############
+## Borders ##
+#############
+
+default_border pixel 1
+client.focused $pink $base $text $pink $pink

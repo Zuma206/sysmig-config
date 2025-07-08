@@ -13,6 +13,7 @@ include {
   keybinds
   appearance
   outputs
+  inputs
 }
 
 ##########################

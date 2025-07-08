@@ -1,0 +1,7 @@
+###################
+## Input Devices ##
+###################
+
+input "9494:303:Cooler_Master_Technology_Inc._MM710_Gaming_Mouse" {
+  accel_profile flat
+}

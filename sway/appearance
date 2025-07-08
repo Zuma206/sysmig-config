@@ -2,6 +2,6 @@
 ## General Appearance ##
 ########################
 
-output * background ~/Pictures/wallpapers/kitty.jpg fill
+output * background ~/Pictures/wallpapers/flowers-2.jpg fill
 default_border none
 gaps inner 10

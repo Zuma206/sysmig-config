@@ -5,6 +5,7 @@ return std.system {
     ["~/.config/sway"] = "sway",
     ["~/.config/kanshi"] = "kanshi",
     ["~/.config/waybar"] = "waybar",
+    ["~/.config/foot"] = "foot",
     ["~/Pictures/wallpapers"] = "wallpapers"
   }
 }

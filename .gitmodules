@@ -10,3 +10,6 @@
 [submodule "sway/catppuccin"]
 	path = sway/catppuccin
 	url = https://github.com/catppuccin/i3.git
+[submodule "autotiling"]
+	path = autotiling
+	url = https://github.com/nwg-piotr/autotiling.git

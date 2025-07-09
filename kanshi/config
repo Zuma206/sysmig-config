@@ -1,4 +1,8 @@
 profile {
+  output "BOE 0x095F Unknown" enable
+}
+
+profile {
   output "BOE 0x095F Unknown" disable
   output "OOO EG27144 Unknown" enable
 }

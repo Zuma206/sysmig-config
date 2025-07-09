@@ -1,10 +1,11 @@
 @import "catppuccin/themes/mocha.css";
 
 window {
-  border: 1px solid @pink;
+  border: 1px solid @mauve;
   font-family: "Cascadia Code NF";
   background: @base;
   color: @text;
+  font-size: 16px;
 }
 
 /* Reset buttons */

@@ -16,4 +16,4 @@ gaps inner 7
 #############
 
 default_border pixel 1
-client.focused $pink $base $text $pink $pink
+client.focused $mauve $base $text $mauve $mauve

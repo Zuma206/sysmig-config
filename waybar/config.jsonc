@@ -1,36 +1,76 @@
 // -*- mode: jsonc -*-
 {
-    "spacing": 15,
-    "margin-left": 7,
-    "margin-right": 7,
-    "margin-top": 7,
-    "modules-left": [
-        "sway/workspaces",
-        "sway/mode"
+  "spacing": 15,
+  "margin-left": 7,
+  "margin-right": 7,
+  "margin-top": 7,
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "tray",
+    "pulseaudio",
+    "power-profiles-daemon",
+    "cpu",
+    "memory",
+    "temperature",
+    "backlight",
+    "battery",
+  ],
+  "sway/workspaces": {
+  "persistent-workspaces": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  }
+  },
+  "tray": {
+    "spacing": 15
+  },
+  "battery": {
+    "format-icons": [
+      "󰂎",
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹",
     ],
-    "modules-center": [
-        "clock"
+    "format": "{icon} {capacity}%"
+  },
+  "memory": {
+    "format": "󰍛 {used}"
+  },
+  "cpu": {
+    "format": "󰻠 {usage}%"
+  },
+  "temperature": {
+    "format": "{icon} {temperatureC}°C",
+    "format-icons": [
+      "",
+      "",
+      ""
     ],
-    "modules-right": [
-        "tray",
-        "pulseaudio",
-        "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
-        "battery",
-    ],
-    "sway/workspaces": {
-      "persistent-workspaces": {
-        "1": [],
-        "2": [],
-        "3": [],
-        "4": [],
-        "5": []
-      }
-    },
-    "tray": {
-      "spacing": 15
-    }
+  },
+  "pulseaudio": {
+    "on-click": "pavucontrol",
+    "format-muted": "󰝟 0%",
+    "format": "{icon} {volume}%",
+    "format-icons": [
+      "󰕿",
+      "󰖀",
+      "󰕾"
+    ]
+  }
 }

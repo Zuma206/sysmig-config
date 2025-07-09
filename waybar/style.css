@@ -1,11 +1,35 @@
 @import "catppuccin/themes/mocha.css";
 
-* {
+window {
+  border-bottom: 1px solid @pink;
   font-family: "Cascadia Code NF";
+  background: @base;
   color: @text;
 }
 
-window {
-  background: @base;
-  border-bottom: 1px solid @pink;
+/* Reset buttons */
+button, button:hover {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  text-shadow: none;
+  border-radius: 0;
+  color: inherit;
+}
+
+button {
+  font-family: "Cascadia Code NF";
+  margin-bottom: 1px;
+}
+
+button:hover {
+  background: @surface0;
+}
+
+button.focused {
+  background: @surface1;
+}
+
+button.empty {
+  color: @surface2;
 }

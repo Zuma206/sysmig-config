@@ -9,7 +9,7 @@ include catppuccin/themes/catppuccin-mocha
 ########################
 
 output * background ~/Pictures/wallpapers/flowers-2.jpg fill
-gaps inner 10
+gaps inner 7
 
 #############
 ## Borders ##

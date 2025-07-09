@@ -1,7 +1,7 @@
 @import "catppuccin/themes/mocha.css";
 
 window {
-  border-bottom: 1px solid @pink;
+  border: 1px solid @pink;
   font-family: "Cascadia Code NF";
   background: @base;
   color: @text;
@@ -19,17 +19,33 @@ button, button:hover {
 
 button {
   font-family: "Cascadia Code NF";
-  margin-bottom: 1px;
 }
 
 button:hover {
   background: @surface0;
 }
 
-button.focused {
-  background: @surface1;
-}
-
 button.empty {
   color: @surface2;
+}
+
+button.focused {
+  background: @surface1;
+  color: @text;
+}
+
+.modules-right {
+  padding-right: 15px;
+}
+
+#workspaces {
+  margin: 1px;
+}
+
+#workspaces button {
+  padding: 5px 10px;
+}
+
+#tray menu {
+  color: black;
 }

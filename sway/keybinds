@@ -6,7 +6,7 @@ floating_modifier $mod
 unbindsym print
 
 bindsym {
-  print exec ~/.config/sysmig/swaysnip/swaysnip
+  print exec ~/.config/sysmig/swaysnip/swaysnip swaysnip
 
   $mod+1 workspace number 1
   $mod+2 workspace number 2

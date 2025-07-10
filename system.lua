@@ -2,7 +2,8 @@ local std = require "@std"
 
 return std.system {
   std.dnf.packages {
-    "cascadia-code-nf-fonts"
+    "cascadia-code-nf-fonts",
+    "neovim"
   },
   std.symlinks {
     ["~/.config/sway"] = "sway",

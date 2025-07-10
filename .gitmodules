@@ -13,3 +13,6 @@
 [submodule "autotiling"]
 	path = autotiling
 	url = https://github.com/nwg-piotr/autotiling.git
+[submodule "swaysnip"]
+	path = swaysnip
+	url = git@github.com:Zuma206/swaysnip.git

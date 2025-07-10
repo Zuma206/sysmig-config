@@ -3,8 +3,11 @@
 ######################
 
 floating_modifier $mod
+unbindsym print
 
 bindsym {
+  print exec ~/.config/sysmig/swaysnip/swaysnip
+
   $mod+1 workspace number 1
   $mod+2 workspace number 2
   $mod+3 workspace number 3

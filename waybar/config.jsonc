@@ -47,7 +47,8 @@
       "󰂂",
       "󰁹",
     ],
-    "format": "{icon} {capacity}%"
+    "format": "{icon} {capacity}%",
+    "format-charging": "{icon}󰚥 {capacity}%"
   },
   "memory": {
     "format": "󰍛 {used}"

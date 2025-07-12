@@ -9,6 +9,7 @@ return std.system {
     ["~/.config/sway"] = "sway",
     ["~/.config/kanshi"] = "kanshi",
     ["~/.config/waybar"] = "waybar",
+    ["~/.config/nvim"] = "nvim",
     ["~/.config/foot"] = "foot",
     ["~/.config/swaynag"] = "swaynag",
     ["~/Pictures/wallpapers"] = "wallpapers"

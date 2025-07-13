@@ -1,52 +1,13 @@
-// -*- mode: jsonc -*-
 {
-  "spacing": 15,
-  "modules-left": [
-    "sway/workspaces",
-    "sway/mode"
+  "include": [
+    "~/.config/waybar/workspaces.jsonc",
+    "~/.config/waybar/battery.jsonc",
+    "~/.config/waybar/pulseaudio.jsonc",
+    "~/.config/waybar/layout.jsonc",
+    "~/.config/waybar/wlogout.jsonc"
   ],
-  "modules-center": [
-    "clock"
-  ],
-  "modules-right": [
-    "tray",
-    "pulseaudio",
-    "power-profiles-daemon",
-    "cpu",
-    "memory",
-    "temperature",
-    "backlight",
-    "battery",
-    "custom/wlogout"
-  ],
-  "sway/workspaces": {
-  "persistent-workspaces": {
-    "1": [],
-    "2": [],
-    "3": [],
-    "4": [],
-    "5": []
-  }
-  },
   "tray": {
     "spacing": 15
-  },
-  "battery": {
-    "format-icons": [
-      "󰂎",
-      "󰁺",
-      "󰁻",
-      "󰁼",
-      "󰁽",
-      "󰁾",
-      "󰁿",
-      "󰂀",
-      "󰂁",
-      "󰂂",
-      "󰁹",
-    ],
-    "format": "{icon} {capacity}%",
-    "format-charging": "{icon}󰚥 {capacity}%"
   },
   "memory": {
     "format": "󰍛 {used}"
@@ -55,25 +16,6 @@
     "format": "󰻠 {usage}%"
   },
   "temperature": {
-    "format": "{icon} {temperatureC}°C",
-    "format-icons": [
-      "",
-      "",
-      ""
-    ],
-  },
-  "pulseaudio": {
-    "on-click": "pavucontrol",
-    "format-muted": "󰝟 0%",
-    "format": "{icon} {volume}%",
-    "format-icons": [
-      "󰕿",
-      "󰖀",
-      "󰕾"
-    ]
-  },
-  "custom/wlogout": {
-    "on-click": "wlogout",
-    "format": "󰐥",
-  },
+    "format": " {temperatureC}°C"
+  }
 }

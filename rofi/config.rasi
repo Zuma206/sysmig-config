@@ -2,4 +2,7 @@
 
 configuration {
   font: "Cascadia Code NF 14";
+  me-accept-entry: "MousePrimary";
+  me-select-entry: "";
+  hover-select: true;
 }

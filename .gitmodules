@@ -13,3 +13,6 @@
 [submodule "swaysnip"]
 	path = swaysnip
 	url = git@github.com:Zuma206/swaysnip.git
+[submodule "wallpapers-v2"]
+	path = wallpapers
+	url = https://github.com/zhichaoh/catppuccin-wallpapers.git

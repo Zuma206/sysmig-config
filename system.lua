@@ -12,6 +12,6 @@ return std.system {
     ["~/.config/nvim"] = "nvim",
     ["~/.config/foot"] = "foot",
     ["~/.config/swaynag"] = "swaynag",
-    -- ["~/Pictures/wallpapers"] = "wallpapers"
+    ["~/Pictures/wallpapers"] = "wallpapers"
   }
 }

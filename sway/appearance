@@ -8,7 +8,7 @@ include catppuccin/themes/catppuccin-mocha
 ## General Appearance ##
 ########################
 
-output * background ~/Pictures/wallpapers/flowers-2.jpg fill
+output * background ~/Pictures/wallpapers/landscapes/evening-sky.png fill
 gaps inner 7
 
 #############

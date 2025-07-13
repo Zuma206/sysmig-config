@@ -31,7 +31,7 @@ bindsym {
   $mod+shift+0 move container to workspace number 10, workspace number 10
 
   $mod+shift+f fullscreen toggle
-  $mod+escape exec swaylock
+  $mod+escape exec wlogout
   $mod+f floating toggle
   $mod+shift+r reload
   $mod+c kill

@@ -8,6 +8,7 @@ return std.system {
   },
   std.symlinks {
     ["~/Pictures/wallpapers"] = "wallpapers",
+    ["~/.config/swaylock"] = "swaylock",
     ["~/.config/wlogout"] = "wlogout",
     ["~/.config/swaynag"] = "swaynag",
     ["~/.config/kanshi"] = "kanshi",

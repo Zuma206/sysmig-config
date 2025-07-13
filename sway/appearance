@@ -9,7 +9,7 @@ include catppuccin/themes/catppuccin-mocha
 ########################
 
 output * background ~/Pictures/wallpapers/landscapes/evening-sky.png fill
-gaps inner 10
+gaps inner 13
 
 #############
 ## Borders ##

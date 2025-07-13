@@ -4,7 +4,8 @@
     "~/.config/waybar/battery.jsonc",
     "~/.config/waybar/pulseaudio.jsonc",
     "~/.config/waybar/layout.jsonc",
-    "~/.config/waybar/wlogout.jsonc"
+    "~/.config/waybar/wlogout.jsonc",
+    "~/.config/waybar/clock.jsonc"
   ],
   "tray": {
     "spacing": 15

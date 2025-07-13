@@ -45,3 +45,10 @@ button.focused {
 #tray menu {
   color: black;
 }
+
+tooltip {
+  background-color: @base;
+  font-family: "Cascadia Code NF";
+  border-radius: 0;
+  border-color: @mauve;
+}

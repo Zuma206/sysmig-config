@@ -1,0 +1,11 @@
+{
+  "clock": {
+    "format": "{:%a %d %H:%M}",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "format": {
+        "today": "<span color='#cba6f7'><b>{}</b></span>"
+      }
+    }
+  },
+}

@@ -1,8 +1,9 @@
 @theme "mocha"
 
 configuration {
-  font: "Cascadia Code NF 14";
   me-accept-entry: "MousePrimary";
+  drun-display-format: "{name}";
+  font: "Cascadia Code NF 14";
   me-select-entry: "";
   hover-select: true;
 }

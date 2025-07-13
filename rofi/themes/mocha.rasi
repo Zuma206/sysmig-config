@@ -19,3 +19,7 @@ element alternate.active {
   background-color: @active-background;
   text-color:       @active-foreground;
 }
+
+window {
+  width: 30em;
+}

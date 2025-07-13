@@ -1,7 +1,6 @@
 @import "catppuccin/themes/mocha.css";
 
 window {
-  border: 1px solid @mauve;
   font-family: "Cascadia Code NF";
   background: @base;
   color: @text;
@@ -37,10 +36,6 @@ button.focused {
 
 .modules-right {
   padding-right: 15px;
-}
-
-#workspaces {
-  margin: 1px;
 }
 
 #workspaces button {

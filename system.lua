@@ -3,6 +3,7 @@ local std = require "@std"
 return std.system {
   std.dnf.packages {
     "cascadia-code-nf-fonts",
+    "wlogout",
     "neovim"
   },
   std.symlinks {

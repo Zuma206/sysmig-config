@@ -17,6 +17,7 @@
     "temperature",
     "backlight",
     "battery",
+    "custom/wlogout"
   ],
   "sway/workspaces": {
   "persistent-workspaces": {
@@ -70,5 +71,9 @@
       "󰖀",
       "󰕾"
     ]
-  }
+  },
+  "custom/wlogout": {
+    "on-click": "wlogout",
+    "format": "󰐥",
+  },
 }

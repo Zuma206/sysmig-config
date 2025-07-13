@@ -7,13 +7,14 @@ return std.system {
     "neovim"
   },
   std.symlinks {
-    ["~/.config/sway"] = "sway",
+    ["~/Pictures/wallpapers"] = "wallpapers",
+    ["~/.config/wlogout"] = "wlogout",
+    ["~/.config/swaynag"] = "swaynag",
     ["~/.config/kanshi"] = "kanshi",
     ["~/.config/waybar"] = "waybar",
+    ["~/.config/sway"] = "sway",
     ["~/.config/nvim"] = "nvim",
     ["~/.config/foot"] = "foot",
-    ["~/.config/rofi"] = "rofi",
-    ["~/.config/swaynag"] = "swaynag",
-    ["~/Pictures/wallpapers"] = "wallpapers"
+    ["~/.config/rofi"] = "rofi"
   }
 }

@@ -3,6 +3,7 @@
 
 element {
   padding: 0.2em;
+  cursor: default;
 }
 
 element alternate.normal {
@@ -20,6 +21,24 @@ element alternate.active {
   text-color:       @active-foreground;
 }
 
+element selected.normal {
+  background-color: @surface0;
+  text-color: @text;
+}
+
 window {
+  border-color: @mauve;
   width: 30em;
+}
+
+listview {
+  border: none;
+}
+
+inputbar {
+  padding: 0.4em;
+}
+
+scrollbar {
+  handle-color: @surface1;
 }

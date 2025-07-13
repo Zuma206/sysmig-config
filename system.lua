@@ -11,6 +11,7 @@ return std.system {
     ["~/.config/waybar"] = "waybar",
     ["~/.config/nvim"] = "nvim",
     ["~/.config/foot"] = "foot",
+    ["~/.config/rofi"] = "rofi",
     ["~/.config/swaynag"] = "swaynag",
     ["~/Pictures/wallpapers"] = "wallpapers"
   }

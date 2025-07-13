@@ -16,3 +16,6 @@
 [submodule "wallpapers-v2"]
 	path = wallpapers
 	url = https://github.com/zhichaoh/catppuccin-wallpapers.git
+[submodule "rofi/catppuccin"]
+	path = rofi/catppuccin
+	url = https://github.com/catppuccin/rofi.git

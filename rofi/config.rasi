@@ -1,3 +1,5 @@
+@theme "mocha"
+
 configuration {
   font: "Cascadia Code NF 14";
 }

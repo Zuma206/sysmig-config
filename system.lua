@@ -6,6 +6,13 @@ return std.system {
     "wlogout",
     "neovim"
   },
+  std.components {
+    module = "components",
+    "homebrew"
+  },
+  std.homebrew.packages {
+    "go"
+  },
   std.symlinks {
     ["~/Pictures/wallpapers"] = "wallpapers",
     ["~/.config/swaylock"] = "swaylock",

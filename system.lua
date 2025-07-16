@@ -1,18 +1,21 @@
 local std = require "@std"
 
 return std.system {
+  std.components {
+    module = "components",
+
+    "rpm-fusion",
+    "homebrew"
+  },
+
   std.dnf.packages {
     "cascadia-code-nf-fonts",
     "flatpak",
     "wlogout",
-    "lutris",
-    "neovim"
+    "neovim",
+    "steam"
   },
-
-  std.components {
-    module = "components",
-    "homebrew"
-  },
+ 
   std.homebrew.packages {
     "go"
   },

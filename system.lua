@@ -3,9 +3,11 @@ local std = require "@std"
 return std.system {
   std.dnf.packages {
     "cascadia-code-nf-fonts",
+    "flatpak",
     "wlogout",
     "neovim"
   },
+
   std.components {
     module = "components",
     "homebrew"
@@ -13,6 +15,12 @@ return std.system {
   std.homebrew.packages {
     "go"
   },
+
+  std.flatpak.remotes {
+    flathub = "https://dl.flathub.org/repo/flathub.flatpakrepo"
+  },
+  std.flatpak.packages {},
+
   std.symlinks {
     ["~/Pictures/wallpapers"] = "wallpapers",
     ["~/.config/swaylock"] = "swaylock",

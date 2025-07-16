@@ -5,6 +5,7 @@ return std.system {
     "cascadia-code-nf-fonts",
     "flatpak",
     "wlogout",
+    "lutris",
     "neovim"
   },
 

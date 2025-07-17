@@ -34,5 +34,6 @@ bindsym {
   $mod+escape exec wlogout
   $mod+f floating toggle
   $mod+shift+r reload
+  $mod+tab focus next
   $mod+c kill
 }

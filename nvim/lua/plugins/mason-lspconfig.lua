@@ -14,7 +14,8 @@ return {
 
     require("mason-lspconfig").setup({
       ensure_installed = {
-        "gopls"
+        "lua_ls",
+        "gopls",
       }
     })
   end

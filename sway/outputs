@@ -1,1 +1,4 @@
-output "OOO EG27144 Unknown" scale 1.25
+output {
+  "OOO EG27144 Unknown" scale 1.25
+  "BOE 0x095F Unknown" scale 1.5
+}

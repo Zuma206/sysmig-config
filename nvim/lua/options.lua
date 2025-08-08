@@ -18,3 +18,4 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, { silent = true, noremap = true })
 vim.keymap.set("n", "<leader>a", vim.lsp.buf.code_action, { silent = true, noremap = true })
 vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { silent = true, noremap = true })
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex, { silent = true, noremap = true })

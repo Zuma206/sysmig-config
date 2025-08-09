@@ -19,3 +19,5 @@ vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, { silent = true, noremap = t
 vim.keymap.set("n", "<leader>a", vim.lsp.buf.code_action, { silent = true, noremap = true })
 vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { silent = true, noremap = true })
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex, { silent = true, noremap = true })
+vim.keymap.set("n", "<leader>w", vim.cmd.bd, { silent = true, noremap = true })
+vim.keymap.set("n", "<leader>b", function() vim.cmd.Telescope("buffers") end, { silent = true, noremap = true })

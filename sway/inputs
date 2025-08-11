@@ -18,4 +18,8 @@ input {
     natural_scroll enable
     tap enable
   }
+
+  "type:keyboard" {
+    xkb_options caps:escape
+  }
 }

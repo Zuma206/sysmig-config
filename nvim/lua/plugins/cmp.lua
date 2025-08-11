@@ -19,10 +19,6 @@ return {
       sources = {
         { name = "nvim_lsp" }
       },
-      window = {
-        completion = cmp.config.window.bordered(),
-				documentation = cmp.config.window.bordered()
-      }
     })
   end
 }

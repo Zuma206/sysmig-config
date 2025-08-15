@@ -3,28 +3,25 @@ local std = require "@std"
 return std.system {
   std.components {
     module = "components",
-
+    "proton-vpn-repos",
     "rpm-fusion",
-    "homebrew"
+    "homebrew",
   },
-
   std.dnf.packages {
+    "proton-vpn-gnome-desktop",
     "cascadia-code-nf-fonts",
     "flatpak",
     "wlogout",
     "neovim",
-    "steam"
+    "steam",
   },
- 
   std.homebrew.packages {
     "go"
   },
-
   std.flatpak.remotes {
     flathub = "https://dl.flathub.org/repo/flathub.flatpakrepo"
   },
   std.flatpak.packages {},
-
   std.symlinks {
     ["~/Pictures/wallpapers"] = "wallpapers",
     ["~/.config/swaylock"] = "swaylock",

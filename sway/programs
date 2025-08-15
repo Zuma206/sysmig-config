@@ -21,6 +21,7 @@ bindsym {
 ## Autostart ##
 ###############
 
+exec protonvpn-app
 exec kanshi
 exec_always kanshictl reload
 exec_always python3 $autotiling

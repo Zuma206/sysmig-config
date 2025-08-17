@@ -24,5 +24,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+alias vi="nvim"
+
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(zoxide init bash --cmd cd)"

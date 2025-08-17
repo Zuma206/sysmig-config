@@ -4,13 +4,16 @@ format = "$character$directory$git_branch$git_status$status"
 [character]
 format = "[➜](green) "
 
+[directory]
+format = "[$path]($style)"
+
 [git_status]
 format = "$modified$staged"
 modified = "[*](red)"
 staged = "[*](green)"
 
 [git_branch]
-format = "[git:\\(](blue)[$branch$git_status](red)[\\)](blue)"
+format = " [git:\\(](blue)[$branch$git_status](red)[\\)](blue)"
 
 [status]
 format = " $symbol "

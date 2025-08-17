@@ -17,13 +17,15 @@ return std.system {
     "steam",
   },
   std.homebrew.packages {
-    "go"
+    "starship",
+    "go",
   },
   std.flatpak.remotes {
     flathub = "https://dl.flathub.org/repo/flathub.flatpakrepo"
   },
   std.flatpak.packages {},
   std.symlinks {
+    ["~/.config/starship.toml"] = "starship/starship.toml",
     ["~/Pictures/wallpapers"] = "wallpapers",
     ["~/.config/swaylock"] = "swaylock",
     ["~/.config/wlogout"] = "wlogout",
@@ -31,9 +33,10 @@ return std.system {
     ["~/.config/kanshi"] = "kanshi",
     ["~/.config/waybar"] = "waybar",
     ["~/.bashrc"] = "bash/.bashrc",
+    ["~/.inputrc"] = "bash/.inputrc",
     ["~/.config/sway"] = "sway",
     ["~/.config/nvim"] = "nvim",
     ["~/.config/foot"] = "foot",
-    ["~/.config/rofi"] = "rofi"
+    ["~/.config/rofi"] = "rofi",
   }
 }

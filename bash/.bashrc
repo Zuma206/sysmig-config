@@ -28,3 +28,4 @@ alias vi="nvim"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(zoxide init bash --cmd cd)"
+eval "$(starship init bash)"

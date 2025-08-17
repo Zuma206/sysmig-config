@@ -1,0 +1,19 @@
+add_newline = false
+format = "$character$directory$git_branch$git_status$status"
+
+[character]
+format = "[➜](green) "
+
+[git_status]
+format = "$modified$staged"
+modified = "[*](red)"
+staged = "[*](green)"
+
+[git_branch]
+format = "[git:\\(](blue)[$branch$git_status](red)[\\)](blue)"
+
+[status]
+format = " $symbol "
+symbol = "[×](red)"
+success_symbol = "[×](green)"
+disabled = false

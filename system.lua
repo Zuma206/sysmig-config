@@ -13,6 +13,7 @@ return std.system {
     "flatpak",
     "wlogout",
     "neovim",
+    "zoxide",
     "steam",
   },
   std.homebrew.packages {
@@ -29,6 +30,7 @@ return std.system {
     ["~/.config/swaynag"] = "swaynag",
     ["~/.config/kanshi"] = "kanshi",
     ["~/.config/waybar"] = "waybar",
+    ["~/.bashrc"] = "bash/.bashrc",
     ["~/.config/sway"] = "sway",
     ["~/.config/nvim"] = "nvim",
     ["~/.config/foot"] = "foot",

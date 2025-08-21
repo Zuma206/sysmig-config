@@ -15,10 +15,9 @@ vim.api.nvim_create_autocmd("BufWritePre", {
   end,
 })
 
-vim.keymap.set("n", "<leader>r", vim.lsp.buf.hover, { silent = true, noremap = true })
-vim.keymap.set("n", "<leader>t", vim.lsp.buf.rename, { silent = true, noremap = true })
-vim.keymap.set("n", "<leader>a", vim.lsp.buf.code_action, { silent = true, noremap = true })
-vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { silent = true, noremap = true })
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex, { silent = true, noremap = true })
-vim.keymap.set("n", "<leader>w", vim.cmd.bd, { silent = true, noremap = true })
-vim.keymap.set("n", "<leader>g", function() vim.cmd.Telescope("buffers") end, { silent = true, noremap = true })
+vim.keymap.set("n", "<leader>r", vim.lsp.buf.hover)
+vim.keymap.set("n", "<leader>t", vim.lsp.buf.rename)
+vim.keymap.set("n", "<leader>a", vim.lsp.buf.code_action)
+vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float)
+vim.keymap.set("n", "<leader>w", vim.cmd.bd)
+vim.keymap.set("n", "<leader>g", function() vim.cmd.Telescope("buffers") end)

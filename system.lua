@@ -15,6 +15,7 @@ return std.system {
     "neovim",
     "zoxide",
     "steam",
+    "gimp",
   },
   std.homebrew.packages {
     "starship",
@@ -23,7 +24,10 @@ return std.system {
   std.flatpak.remotes {
     flathub = "https://dl.flathub.org/repo/flathub.flatpakrepo"
   },
-  std.flatpak.packages {},
+  std.flatpak.packages {
+    "com.github.Matoking.protontricks",
+    "org.libreoffice.LibreOffice",
+  },
   std.symlinks {
     ["~/.config/starship.toml"] = "starship/starship.toml",
     ["~/Pictures/wallpapers"] = "wallpapers",

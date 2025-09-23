@@ -16,6 +16,7 @@ return std.system {
     "zoxide",
     "steam",
     "gimp",
+    "cloc",
   },
   std.homebrew.packages {
     "starship",

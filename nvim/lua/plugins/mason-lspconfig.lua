@@ -27,6 +27,7 @@ return {
 
     require("mason-lspconfig").setup({
       ensure_installed = {
+        "emmet_language_server",
         "jsonls",
         "lua_ls",
         "gopls",

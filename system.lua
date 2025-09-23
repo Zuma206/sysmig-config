@@ -18,6 +18,7 @@ return std.system {
     "gimp",
     "cloc",
     "dkms",
+    "kernel-headers",
   },
   std.homebrew.packages {
     "starship",

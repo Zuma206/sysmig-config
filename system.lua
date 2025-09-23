@@ -17,6 +17,7 @@ return std.system {
     "steam",
     "gimp",
     "cloc",
+    "dkms",
   },
   std.homebrew.packages {
     "starship",

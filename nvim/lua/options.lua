@@ -7,6 +7,7 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.signcolumn = "yes"
+vim.o.guicursor = "n:block,i:block-blinkoff1-blinkon1"
 
 vim.api.nvim_create_autocmd("BufWritePre", {
   pattern = "*",

@@ -29,6 +29,7 @@ return std.system {
   std.flatpak.packages {
     "com.github.Matoking.protontricks",
     "org.libreoffice.LibreOffice",
+    "md.obsidian.Obsidian",
   },
   std.symlinks {
     ["~/.config/starship.toml"] = "starship/starship.toml",

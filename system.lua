@@ -19,6 +19,7 @@ return std.system {
     "unrar",
     "gimp",
     "cloc",
+    "bear",
   },
   std.homebrew.packages {
     "starship",

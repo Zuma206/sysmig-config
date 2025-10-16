@@ -10,6 +10,7 @@ return std.system {
   std.dnf.packages {
     "proton-vpn-gnome-desktop",
     "cascadia-code-nf-fonts",
+    "chromium",
     "flatpak",
     "wlogout",
     "neovim",

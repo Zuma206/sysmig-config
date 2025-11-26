@@ -20,6 +20,7 @@ return std.system {
     "gimp",
     "cloc",
     "bear",
+    "pnpm",
   },
   std.homebrew.packages {
     "starship",

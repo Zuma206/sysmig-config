@@ -28,12 +28,12 @@ return {
     require("mason-lspconfig").setup({
       ensure_installed = {
         "emmet_language_server",
-        "java_language_server",
         "clangd",
         "jsonls",
         "lua_ls",
         "gopls",
         "ts_ls",
+        "jdtls",
       }
     })
   end

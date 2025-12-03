@@ -10,7 +10,7 @@ return std.system {
   std.dnf.packages {
     "proton-vpn-gnome-desktop",
     "cascadia-code-nf-fonts",
-    "java-21-openjdk",
+    "java-21-openjdk-devel",
     "chromium",
     "flatpak",
     "wlogout",

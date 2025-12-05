@@ -6,3 +6,8 @@ profile {
   output "BOE 0x095F Unknown" disable
   output "OOO EG27144 Unknown" enable
 }
+
+profile {
+  output "BOE 0x095F Unknown" disable
+  output "AOC 2270W GFKH9HA034272" enable
+}

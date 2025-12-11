@@ -17,6 +17,7 @@ return std.system {
     "neovim",
     "zoxide",
     "steam",
+    "maven",
     "unrar",
     "gimp",
     "cloc",

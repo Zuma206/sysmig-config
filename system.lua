@@ -11,6 +11,7 @@ return std.system {
     "proton-vpn-gnome-desktop",
     "cascadia-code-nf-fonts",
     "java-21-openjdk-devel",
+    "virtualbox",
     "chromium",
     "flatpak",
     "wlogout",

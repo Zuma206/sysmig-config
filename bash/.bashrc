@@ -24,7 +24,8 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-alias vi="nvim"
+# Set nvim as the default editor
+EDITOR="nvim"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init bash)"

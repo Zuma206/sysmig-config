@@ -13,6 +13,12 @@ return {
       view = {
         width = 25,
       },
+      git = {
+        ignore = false
+      },
+      filters = {
+        custom = {".git"}
+      }
     })
 
     vim.keymap.set("n", "<leader>e", api.tree.toggle)

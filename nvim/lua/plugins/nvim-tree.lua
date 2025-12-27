@@ -17,7 +17,7 @@ return {
         ignore = false
       },
       filters = {
-        custom = {".git"}
+        custom = { "^\\.git$" },
       }
     })
 

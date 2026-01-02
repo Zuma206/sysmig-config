@@ -28,6 +28,7 @@ return {
     require("mason-lspconfig").setup({
       ensure_installed = {
         "emmet_language_server",
+        "rust_analyzer",
         "pyright",
         "clangd",
         "jsonls",

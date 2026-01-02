@@ -17,6 +17,7 @@ return std.system {
     "wlogout",
     "neovim",
     "zoxide",
+    "rustup",
     "steam",
     "maven",
     "unrar",

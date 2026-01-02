@@ -34,6 +34,7 @@ bindsym {
   $mod+escape exec wlogout
   $mod+f floating toggle
   $mod+shift+r reload
+  $mod+e exec firefox
   $mod+tab focus next
   $mod+c kill
 }
